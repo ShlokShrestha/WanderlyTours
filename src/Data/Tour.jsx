@@ -25,7 +25,7 @@ const TourData = [
     id: 3,
     image:
       "https://voyage.qodeinteractive.com/wp-content/uploads/2016/04/tour-image-30-415x262.jpg",
-    title: "Taste of Britain",
+    title: "Japan",
     price: 2120,
     rating: {
       rate: 6.5,

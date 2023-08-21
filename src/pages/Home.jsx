@@ -3,6 +3,7 @@ import { PiSmileyLight, PiSmileyMehLight } from "react-icons/pi";
 import { BsFillStarFill, BsPersonCircle } from "react-icons/bs";
 import Card from "../components/Card";
 import Carousel from "../components/Carousel";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -41,9 +42,9 @@ const Home = () => {
                     dolorem!
                   </p>
                   <hr />
-                  <a href="#" className="btn btn-primary">
+                  <Link to="/contact" className="btn btn-primary">
                     Book Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,9 +70,9 @@ const Home = () => {
                     dolorem!
                   </p>
                   <hr />
-                  <a href="#" className="btn btn-primary">
+                  <Link to="/contact" className="btn btn-primary">
                     Book Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -97,9 +98,9 @@ const Home = () => {
                     dolorem!
                   </p>
                   <hr />
-                  <a href="#" className="btn btn-primary">
+                  <Link to="/contact" className="btn btn-primary">
                     Book Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -374,7 +375,9 @@ const Home = () => {
             <span className="text-white fs-4">
               It’s Time For a New Adventure! Don’t Wait Any Longer. Contact us!
             </span>
-            <button className="bookdes text-uppercase">Book Destination</button>
+            <Link to="/contact" className="bookdes text-uppercase">
+              Book Destination
+            </Link>
           </div>
         </div>
       </section>

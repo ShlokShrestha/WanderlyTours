@@ -32,6 +32,7 @@
   background-color: #cd3143;
   color: #ffff;
   font-weight: 600;
+  text-decoration: none;
 }
 .destination-section .bookdes:hover {
   background-color: #c12c3d;

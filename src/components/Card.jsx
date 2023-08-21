@@ -1,6 +1,7 @@
 import React from "react";
 import { PiSmileyLight, PiSmileyMehLight } from "react-icons/pi";
 import Data from "../Data/Tour";
+import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="container mb-5 ">
@@ -29,9 +30,9 @@ const Card = () => {
                   praesentium voluptatibus, non deserunt expedita dolorem!
                 </p>
                 <hr />
-                <a href="#" className="btn btn-primary">
+                <Link to="/contact" className="btn btn-primary">
                   Book Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
